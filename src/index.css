@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playwrite+HR+Lijeva+Guides&family=Red+Rose:wght@300..700&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

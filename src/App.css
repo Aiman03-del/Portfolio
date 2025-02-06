@@ -1,0 +1,12 @@
+.scrollbar-track {
+  background: #2d3748; /* Dark background for scrollbar track */
+}
+
+.scrollbar-thumb {
+  background: #4a5568; /* Slightly lighter background for scrollbar thumb */
+  border-radius: 10px;
+}
+
+.scrollbar-corner {
+  background: #2d3748; /* Match the track background */
+}

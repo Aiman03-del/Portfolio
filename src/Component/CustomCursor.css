@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+
+[data-cursor] {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(
+    120deg,
+    #ff1744,
+    #e040fb,
+    #2979ff,
+    #00e5ff,
+    #76ff03
+  );
+  background-size: 1600% 1600%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 50;
+  transition: 0.15s linear;
+  animation: blobRadius 5s ease infinite, blobBackground 15s ease infinite;
+  transform: translate(-50%, -50%);
+}
+
+[data-cursor].hover {
+  width: 60px;
+  height: 60px;
+  transition: 0.15s ease;
+}
+
+@keyframes blobRadius {
+  0%,
+  100% {
+    border-radius: 50%;
+  }
+}
+
+@keyframes blobBackground {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
