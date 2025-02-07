@@ -38,15 +38,15 @@ const AboutMe = () => {
   return (
     <div className="flex flex-col md:flex-row gap-8 p-8 bg-black text-white">
       {/* Left Section */}
-      <div className="flex-1 md:sticky md:top-8 md:h-fit">
-        <motion.h2 
+      <div className="flex-1 md:sticky md:top-20 md:h-fit">
+        <Parallax speed={-5}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           className="font-bold text-3xl uppercase mb-8 md:mb-0"
           style={{ letterSpacing: '-0.8px' }}
         >
           EXPERIENCE
-        </motion.h2>
+        </Parallax>
       </div>
 
       {/* Right Section */}
