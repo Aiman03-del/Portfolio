@@ -13,6 +13,7 @@ import Header from "./Component/Header";
 import Home from "./Component/Home";
 import Projects from "./Component/Projects";
 import BackgroundAnimation from "./Component/shared/BackgroundAnimation"; // Import BackgroundAnimation
+import Skills from "./Component/Skills";
 
 function App() {
   useEffect(() => {
@@ -31,13 +32,15 @@ function App() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-          
           >
             <Element name="home">
               <Home />
             </Element>
             <Element name="about">
               <AboutMe />
+            </Element>
+            <Element name="about">
+              <Skills />
             </Element>
             <Element name="projects">
               <Projects />
